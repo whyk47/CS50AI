@@ -10,6 +10,7 @@ SENTENCE_MATCHES = 1
 
 
 def main():
+    nltk.download('stopwords')
 
     # Check command-line arguments
     if len(sys.argv) != 2:

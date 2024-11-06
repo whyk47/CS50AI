@@ -1,5 +1,11 @@
 # CS50AI Projects
 
+
+### Cloning the repo
+```bash
+git clone https://github.com/whyk47/CS50AI.git
+```
+
 [Full course outline](https://cs50.harvard.edu/ai/2020/)
 
 Below is a brief overview of the projects and the key concepts used. Detailed usage & documentation can be found in the respective project directories.
@@ -29,8 +35,3 @@ Below is a brief overview of the projects and the key concepts used. Detailed us
 ### Week 6: Natural Language Processing
 - Parser: Tokenisation, Context Free Grammar
 - Questions: Information Retrieval, Inverse Document Frequency
-
-### Cloning the repo
-```bash
-git clone https://github.com/whyk47/CS50AI.git
-```
