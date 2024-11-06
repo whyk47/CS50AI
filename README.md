@@ -30,3 +30,7 @@ Below is a brief overview of the projects and the key concepts used. Detailed us
 - Parser: Tokenisation, Context Free Grammar
 - Questions: Information Retrieval, Inverse Document Frequency
 
+### Cloning the repo
+```bash
+git clone https://github.com/whyk47/CS50AI.git
+```
