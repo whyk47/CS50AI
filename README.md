@@ -20,8 +20,8 @@ Below is a brief overview of the projects and the key concepts used. Detailed us
 - Crossword Generator: Backtracking Search
 
 ### Week 4: Machine Learning
-- Nim: Q-Learning
-- Shopping: K Nearest Neighbour Classifiaction
+- Nim AI: Q-Learning
+- Shopping Purchase Prediction: K Nearest Neighbour Classifiaction
 
 ### Week 5: Neural Networks
 - Traffic: Convolutional Neural Networks, Computer Vision
