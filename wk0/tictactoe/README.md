@@ -1,4 +1,4 @@
-# Tic-Tac-Toe
+# Tic-Tac-Toe AI
 
 ### Optimal Tic-Tac-Toe AI using Minimax Algorithm. Uses Alpha-Beta pruning to skip redundant recursive computations.
 
