@@ -24,7 +24,7 @@ Below is a brief overview of the projects and the key concepts used. Detailed us
 - Shopping Purchase Prediction: K Nearest Neighbour Classifiaction
 
 ### Week 5: Neural Networks
-- Traffic: Convolutional Neural Networks, Computer Vision
+- Traffic Sign Classification: Convolutional Neural Networks, Computer Vision
 
 ### Week 6: Natural Language Processing
 - Parser: Tokenisation, Context Free Grammar
