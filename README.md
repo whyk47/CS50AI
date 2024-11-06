@@ -6,15 +6,15 @@ Below is a brief overview of the projects and the key concepts used. Detailed us
 
 ### Week 0: Search Algorithms
 - Degrees: Breadth First Search
-- TicTacToe: Minimax Algorithm with Alpha-Beta Pruning
+- TicTacToe AI: Minimax Algorithm with Alpha-Beta Pruning
 
 ### Week 1: Knowledge Based Agents
-- Knights: Knowledge Engineering
-- Minesweeper: Propositional Logic
+- Knights & Knaves Puzzle Solver: Knowledge Engineering
+- Minesweeper AI: Propositional Logic
 
 ### Week 2: Uncertainty & Probability Models
-- Heredity: Bayesian Networks
-- Pagerank: Markov Chains
+- Heredity Simulator: Bayesian Networks
+- Pagerank Algorithm: Markov Chains
 
 ### Week 3: Optimisation Problems & Constraint Satisfaction
 - Crossword: Backtracking Search

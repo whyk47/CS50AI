@@ -15,6 +15,6 @@
 
 ### Usage
 ```bash
-python puzzle.py
+$ python puzzle.py
 ```
 

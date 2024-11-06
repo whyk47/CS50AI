@@ -4,6 +4,6 @@
 
 ### Usage:
 ```bash
-pip install -r requirements.txt
-python runner.py
+$ pip install -r requirements.txt
+$ python runner.py
 ```

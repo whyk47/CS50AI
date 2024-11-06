@@ -2,8 +2,8 @@
 
 ### Usage
 ```bash
-pip install -r requirements.txt
-python runner.py
+$ pip install -r requirements.txt
+$ python runner.py
 ```
 - Click a cell to reveal it.
 - Right click a cell to mark it as a mine.
