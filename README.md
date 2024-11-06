@@ -17,7 +17,7 @@ Below is a brief overview of the projects and the key concepts used. Detailed us
 - Pagerank Algorithm: Markov Chains
 
 ### Week 3: Optimisation Problems & Constraint Satisfaction
-- Crossword: Backtracking Search
+- Crossword Generator: Backtracking Search
 
 ### Week 4: Machine Learning
 - Nim: Q-Learning

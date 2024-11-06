@@ -1,10 +1,10 @@
 # Pagerank Algorithm
 
-### Given a corpus of webpages, calculate the PageRank of each page. The PageRank of a given page is the probability that a random surfer will end up on that page. A website is more important if it is linked to by other important websites, and links from less important websites have their links weighted less. 
+### This project calculates PageRank values for a set of web pages, implementing both the Sampling and Iterative methods to estimate the importance of each page in a given corpus.
 
 ### Usage
 ```bash
-$ python pagerank.py [corpus]
+$ python pagerank.py [corpus_directory]
 ```
 
 ### Example
@@ -21,7 +21,16 @@ PageRank Results from Iteration
   3.html: 0.2202
   4.html: 0.1307
 ```
+This output shows the PageRank for each page using both methods, which should produce similar results for a given corpus.
 
-### Interpretation
-- Results from Sampling: the proportion of visits for each page from following links at random.
-- Results from iteration: Probability of visiting each page based on iteratively applying the recursive Pagerank formula.
+### Key Concepts
+- Sampling Method: Estimates PageRank by simulating a random surfer moving through the corpus based on the transition model.
+- Iterative Method: Uses a mathematical formula to update PageRank values iteratively until they converge, providing a stable rank for each page.
+
+### Files and Structure
+- pagerank.py: Contains the main PageRank calculations and core functions for implementing both sampling-based and iterative PageRank methods.
+- corpus: A folder with sample HTML files representing pages and links to help test the program’s PageRank calculations.
+
+### Constants
+- DAMPING: The damping factor (default 0.85), representing the likelihood that a random surfer will follow a link rather than randomly choosing a page.
+- SAMPLES: The number of samples (default 10000) to use for estimating PageRank through the sampling method.

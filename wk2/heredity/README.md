@@ -1,8 +1,14 @@
 # Heredity Simulator
 
-### Implementation of a Bayesian network to assess the likelihood that a person will have a particular genetic trait based on their family data.
+This project uses a Bayesian Network to model and calculate the likelihood of an individual having a genetic trait, based on family data and genetic inheritance rules.
+
+### Project Overview
+The model assesses the probability of a person possessing a certain number of copies (0, 1, or 2) of a mutated gene. Each family member can:
+- Inherit copies of a gene from parents, based on inheritance rules and random mutation chances.
+- Exhibit a trait depending on the number of gene copies, according to known probabilities.
 
 ### Usage
+Run the script with a specified family data file:
 ```bash
 $ python heredity.py [path_to_family_data]
 ```
@@ -40,7 +46,7 @@ Lily:
 - Trait: probability that the person does/does not exhibit the trait.
 - E.g. The probability of Harry having 0 copies of the gene is 0.5351, and the probability of him exhibiting the trait is 0.2665.
 
-### Default Probabilities
+### Constants
 1. Unconditional probabilities for having gene
     - 0 copies: 0.96
     - 1 copy: 0.03
